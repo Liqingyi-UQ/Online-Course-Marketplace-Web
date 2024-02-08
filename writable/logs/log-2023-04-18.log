@@ -1,0 +1,22 @@
+ERROR - 2023-04-18 09:11:42 --> mysqli_sql_exception: Table 'LearnLion.teacher' doesn't exist in /var/www/htdocs/LearnLion/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/LearnLion/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/LearnLion/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/LearnLion/app/Models/Teachers_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/LearnLion/app/Controllers/Login.php(40): App\Models\Teachers_model->login()
+#6 /var/www/htdocs/LearnLion/system/CodeIgniter.php(934): App\Controllers\Login->check_login()
+#7 /var/www/htdocs/LearnLion/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/LearnLion/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/LearnLion/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-18 09:11:42 --> Table 'LearnLion.teacher' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Teachers_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Login.php(40): App\Models\Teachers_model->login()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

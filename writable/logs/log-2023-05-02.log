@@ -1,0 +1,573 @@
+ERROR - 2023-05-02 00:08:26 --> 
+ERROR - 2023-05-02 00:08:26 --> 
+ERROR - 2023-05-02 00:08:26 --> 
+ERROR - 2023-05-02 00:08:26 --> 
+ERROR - 2023-05-02 00:08:26 --> 
+ERROR - 2023-05-02 00:08:26 --> 
+ERROR - 2023-05-02 00:08:26 --> 
+ERROR - 2023-05-02 00:08:26 --> 
+ERROR - 2023-05-02 00:08:26 --> 
+ERROR - 2023-05-02 00:08:27 --> 
+ERROR - 2023-05-02 00:08:27 --> 
+ERROR - 2023-05-02 00:08:27 --> 
+ERROR - 2023-05-02 00:08:27 --> 
+ERROR - 2023-05-02 00:08:27 --> 
+ERROR - 2023-05-02 00:08:27 --> 
+ERROR - 2023-05-02 00:08:36 --> 
+ERROR - 2023-05-02 00:08:36 --> 
+ERROR - 2023-05-02 00:08:36 --> 
+ERROR - 2023-05-02 00:08:36 --> 
+ERROR - 2023-05-02 00:08:36 --> 
+ERROR - 2023-05-02 00:08:36 --> 
+ERROR - 2023-05-02 00:08:36 --> 
+ERROR - 2023-05-02 00:14:16 --> 
+ERROR - 2023-05-02 00:14:16 --> 
+ERROR - 2023-05-02 00:14:16 --> 
+ERROR - 2023-05-02 00:14:16 --> 
+ERROR - 2023-05-02 00:14:16 --> 
+ERROR - 2023-05-02 00:14:16 --> 
+ERROR - 2023-05-02 00:14:16 --> 
+ERROR - 2023-05-02 00:14:17 --> 
+ERROR - 2023-05-02 00:14:17 --> 
+ERROR - 2023-05-02 00:14:17 --> 
+ERROR - 2023-05-02 00:14:17 --> 
+ERROR - 2023-05-02 00:14:18 --> 
+ERROR - 2023-05-02 00:14:18 --> 
+ERROR - 2023-05-02 00:14:18 --> 
+ERROR - 2023-05-02 00:14:18 --> 
+ERROR - 2023-05-02 00:14:18 --> 
+ERROR - 2023-05-02 00:14:18 --> 
+ERROR - 2023-05-02 00:14:18 --> 
+ERROR - 2023-05-02 00:14:18 --> 
+ERROR - 2023-05-02 00:14:18 --> 
+CRITICAL - 2023-05-02 00:18:23 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-02 00:21:19 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-02 00:24:20 --> 
+ERROR - 2023-05-02 00:24:20 --> 
+ERROR - 2023-05-02 00:24:20 --> 
+ERROR - 2023-05-02 00:24:20 --> 
+ERROR - 2023-05-02 00:24:20 --> 
+ERROR - 2023-05-02 00:24:20 --> 
+ERROR - 2023-05-02 00:24:20 --> 
+ERROR - 2023-05-02 00:24:21 --> 
+ERROR - 2023-05-02 00:24:21 --> 
+ERROR - 2023-05-02 00:24:21 --> 
+ERROR - 2023-05-02 00:24:21 --> 
+ERROR - 2023-05-02 00:24:21 --> 
+ERROR - 2023-05-02 00:24:22 --> 
+ERROR - 2023-05-02 00:24:22 --> 
+ERROR - 2023-05-02 00:24:22 --> 
+ERROR - 2023-05-02 00:24:22 --> 
+ERROR - 2023-05-02 00:24:22 --> 
+ERROR - 2023-05-02 00:24:22 --> 
+ERROR - 2023-05-02 00:24:22 --> 
+ERROR - 2023-05-02 00:24:23 --> 
+ERROR - 2023-05-02 00:24:23 --> 
+ERROR - 2023-05-02 00:24:23 --> 
+ERROR - 2023-05-02 00:24:23 --> 
+ERROR - 2023-05-02 00:24:24 --> 
+ERROR - 2023-05-02 00:24:24 --> 
+CRITICAL - 2023-05-02 00:26:08 --> Undefined variable $session
+in APPPATH/Controllers/CourseShow.php on line 110.
+ 1 APPPATH/Controllers/CourseShow.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseShow->add_comment()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-02 00:27:52 --> Undefined variable $session
+in APPPATH/Controllers/CourseShow.php on line 110.
+ 1 APPPATH/Controllers/CourseShow.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseShow->add_comment()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-02 00:29:37 --> Undefined variable $username
+in APPPATH/Controllers/CourseShow.php on line 115.
+ 1 APPPATH/Controllers/CourseShow.php(115): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseShow->add_comment()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-02 00:30:21 --> Undefined variable $username
+in APPPATH/Controllers/CourseShow.php on line 115.
+ 1 APPPATH/Controllers/CourseShow.php(115): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseShow->add_comment()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-02 00:32:55 --> Undefined variable $session
+in APPPATH/Controllers/CourseShow.php on line 158.
+ 1 APPPATH/Controllers/CourseShow.php(158): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseShow->add_rating()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-02 00:33:25 --> Undefined variable $session
+in APPPATH/Controllers/CourseShow.php on line 159.
+ 1 APPPATH/Controllers/CourseShow.php(159): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseShow->add_rating()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-02 00:35:06 --> Undefined variable $session
+in APPPATH/Controllers/CourseShow.php on line 154.
+ 1 APPPATH/Controllers/CourseShow.php(154): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseShow->add_rating()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-02 00:35:44 --> Undefined variable $session
+in APPPATH/Controllers/CourseShow.php on line 154.
+ 1 APPPATH/Controllers/CourseShow.php(154): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseShow->add_rating()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-02 00:35:47 --> Undefined variable $session
+in APPPATH/Controllers/CourseShow.php on line 154.
+ 1 APPPATH/Controllers/CourseShow.php(154): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseShow->add_rating()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-02 00:50:19 --> 
+ERROR - 2023-05-02 00:50:20 --> 
+ERROR - 2023-05-02 00:50:20 --> 
+ERROR - 2023-05-02 00:50:20 --> 
+ERROR - 2023-05-02 00:50:20 --> 
+ERROR - 2023-05-02 00:50:20 --> 
+ERROR - 2023-05-02 00:50:20 --> 
+ERROR - 2023-05-02 00:50:20 --> 
+ERROR - 2023-05-02 00:50:20 --> 
+ERROR - 2023-05-02 00:50:20 --> 
+ERROR - 2023-05-02 00:50:20 --> 
+ERROR - 2023-05-02 00:50:20 --> 
+ERROR - 2023-05-02 00:50:20 --> 
+ERROR - 2023-05-02 00:50:20 --> 
+ERROR - 2023-05-02 00:50:20 --> 
+ERROR - 2023-05-02 00:50:20 --> 
+ERROR - 2023-05-02 00:50:20 --> 
+ERROR - 2023-05-02 00:50:20 --> 
+ERROR - 2023-05-02 00:50:20 --> 
+ERROR - 2023-05-02 00:50:20 --> 
+ERROR - 2023-05-02 00:50:20 --> 
+ERROR - 2023-05-02 00:50:21 --> 
+ERROR - 2023-05-02 00:50:21 --> 
+ERROR - 2023-05-02 00:50:21 --> 
+ERROR - 2023-05-02 00:50:21 --> 
+ERROR - 2023-05-02 00:50:21 --> 
+ERROR - 2023-05-02 00:50:21 --> 
+ERROR - 2023-05-02 00:50:21 --> 
+ERROR - 2023-05-02 00:50:21 --> 
+ERROR - 2023-05-02 00:50:21 --> 
+ERROR - 2023-05-02 00:50:21 --> 
+ERROR - 2023-05-02 00:50:21 --> 
+ERROR - 2023-05-02 00:50:22 --> 
+ERROR - 2023-05-02 00:50:22 --> 
+ERROR - 2023-05-02 00:50:22 --> 
+ERROR - 2023-05-02 00:50:22 --> 
+ERROR - 2023-05-02 00:50:22 --> 
+ERROR - 2023-05-02 00:50:22 --> 
+ERROR - 2023-05-02 00:50:22 --> 
+ERROR - 2023-05-02 00:50:22 --> 
+ERROR - 2023-05-02 00:50:22 --> 
+ERROR - 2023-05-02 00:50:22 --> 
+ERROR - 2023-05-02 00:50:23 --> 
+ERROR - 2023-05-02 00:50:23 --> 
+ERROR - 2023-05-02 00:50:23 --> 
+ERROR - 2023-05-02 00:50:23 --> 
+ERROR - 2023-05-02 00:50:23 --> 
+ERROR - 2023-05-02 00:50:23 --> 
+ERROR - 2023-05-02 00:50:23 --> 
+ERROR - 2023-05-02 00:50:23 --> 
+ERROR - 2023-05-02 00:50:23 --> 
+ERROR - 2023-05-02 00:50:23 --> 
+ERROR - 2023-05-02 00:50:23 --> 
+ERROR - 2023-05-02 00:50:24 --> 
+ERROR - 2023-05-02 00:50:24 --> 
+ERROR - 2023-05-02 00:50:24 --> 
+ERROR - 2023-05-02 00:50:24 --> 
+ERROR - 2023-05-02 00:50:24 --> 
+ERROR - 2023-05-02 00:50:24 --> 
+ERROR - 2023-05-02 01:15:38 --> 
+ERROR - 2023-05-02 01:15:38 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:39 --> 
+ERROR - 2023-05-02 01:15:40 --> 
+ERROR - 2023-05-02 01:15:40 --> 
+ERROR - 2023-05-02 01:15:40 --> 
+ERROR - 2023-05-02 01:15:40 --> 
+ERROR - 2023-05-02 01:15:40 --> 
+ERROR - 2023-05-02 01:15:40 --> 
+ERROR - 2023-05-02 01:15:40 --> 
+ERROR - 2023-05-02 01:15:40 --> 
+ERROR - 2023-05-02 01:15:40 --> 
+ERROR - 2023-05-02 01:15:40 --> 
+ERROR - 2023-05-02 01:15:40 --> 
+ERROR - 2023-05-02 01:15:40 --> 
+ERROR - 2023-05-02 01:15:40 --> 
+ERROR - 2023-05-02 01:15:40 --> 
+ERROR - 2023-05-02 01:15:40 --> 
+ERROR - 2023-05-02 01:15:40 --> 
+ERROR - 2023-05-02 01:15:40 --> 
+ERROR - 2023-05-02 01:15:40 --> 
+ERROR - 2023-05-02 01:15:40 --> 
+ERROR - 2023-05-02 01:15:40 --> 
+ERROR - 2023-05-02 01:15:40 --> 
+ERROR - 2023-05-02 01:15:40 --> 
+ERROR - 2023-05-02 01:15:40 --> 
+ERROR - 2023-05-02 01:15:40 --> 
+ERROR - 2023-05-02 01:15:40 --> 
+ERROR - 2023-05-02 01:15:40 --> 
+ERROR - 2023-05-02 01:15:40 --> 
+ERROR - 2023-05-02 01:15:41 --> 
+ERROR - 2023-05-02 01:15:41 --> 
+ERROR - 2023-05-02 01:15:41 --> 
+ERROR - 2023-05-02 01:15:42 --> 
+ERROR - 2023-05-02 01:15:42 --> 
+ERROR - 2023-05-02 01:15:42 --> 
+ERROR - 2023-05-02 01:15:42 --> 
+ERROR - 2023-05-02 01:15:42 --> 
+ERROR - 2023-05-02 01:15:42 --> 
+ERROR - 2023-05-02 01:15:42 --> 
+ERROR - 2023-05-02 01:15:42 --> 
+ERROR - 2023-05-02 01:15:42 --> 
+ERROR - 2023-05-02 01:15:42 --> 
+ERROR - 2023-05-02 01:15:42 --> 
+ERROR - 2023-05-02 01:15:44 --> 
+ERROR - 2023-05-02 01:15:44 --> 
+ERROR - 2023-05-02 01:15:45 --> 
+ERROR - 2023-05-02 01:15:45 --> 
+ERROR - 2023-05-02 01:15:45 --> 
+ERROR - 2023-05-02 01:15:45 --> 
+ERROR - 2023-05-02 01:15:45 --> 
+ERROR - 2023-05-02 01:16:24 --> 
+ERROR - 2023-05-02 01:16:24 --> 
+ERROR - 2023-05-02 01:16:24 --> 
+ERROR - 2023-05-02 01:16:24 --> 
+ERROR - 2023-05-02 01:16:24 --> 
+ERROR - 2023-05-02 01:16:24 --> 
+ERROR - 2023-05-02 01:16:24 --> 
+ERROR - 2023-05-02 01:16:24 --> 
+ERROR - 2023-05-02 01:16:24 --> 
+ERROR - 2023-05-02 01:16:24 --> 
+ERROR - 2023-05-02 01:16:24 --> 
+ERROR - 2023-05-02 01:16:24 --> 
+ERROR - 2023-05-02 01:16:24 --> 
+ERROR - 2023-05-02 01:16:24 --> 
+ERROR - 2023-05-02 01:16:24 --> 
+ERROR - 2023-05-02 01:16:24 --> 
+ERROR - 2023-05-02 01:16:24 --> 
+ERROR - 2023-05-02 01:16:24 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:25 --> 
+ERROR - 2023-05-02 01:16:26 --> 
+ERROR - 2023-05-02 01:16:26 --> 
+ERROR - 2023-05-02 01:16:26 --> 
+ERROR - 2023-05-02 01:16:26 --> 
+ERROR - 2023-05-02 01:16:26 --> 
+ERROR - 2023-05-02 01:16:42 --> 
+ERROR - 2023-05-02 01:16:58 --> 
+ERROR - 2023-05-02 01:16:58 --> 
+ERROR - 2023-05-02 01:16:58 --> 
+ERROR - 2023-05-02 01:16:58 --> 
+ERROR - 2023-05-02 01:16:58 --> 
+ERROR - 2023-05-02 01:16:58 --> 
+ERROR - 2023-05-02 01:16:58 --> 
+ERROR - 2023-05-02 01:16:58 --> 
+ERROR - 2023-05-02 01:16:58 --> 
+ERROR - 2023-05-02 01:25:17 --> 
+ERROR - 2023-05-02 01:25:17 --> 
+ERROR - 2023-05-02 01:25:18 --> 
+ERROR - 2023-05-02 01:25:18 --> 
+ERROR - 2023-05-02 01:25:18 --> 
+ERROR - 2023-05-02 01:25:18 --> 
+ERROR - 2023-05-02 01:25:18 --> 
+ERROR - 2023-05-02 01:25:18 --> 
+ERROR - 2023-05-02 01:25:18 --> 
+ERROR - 2023-05-02 01:25:18 --> 
+ERROR - 2023-05-02 01:25:18 --> 
+ERROR - 2023-05-02 01:25:18 --> 
+ERROR - 2023-05-02 01:25:18 --> 
+ERROR - 2023-05-02 01:25:18 --> 
+ERROR - 2023-05-02 01:30:55 --> 
+ERROR - 2023-05-02 01:30:55 --> 
+ERROR - 2023-05-02 01:30:55 --> 
+ERROR - 2023-05-02 01:30:55 --> 
+ERROR - 2023-05-02 01:30:55 --> 
+ERROR - 2023-05-02 01:30:55 --> 
+ERROR - 2023-05-02 01:30:56 --> 
+ERROR - 2023-05-02 01:30:56 --> 
+ERROR - 2023-05-02 01:30:56 --> 
+ERROR - 2023-05-02 01:30:56 --> 
+ERROR - 2023-05-02 01:30:56 --> 
+ERROR - 2023-05-02 01:30:56 --> 
+ERROR - 2023-05-02 01:30:56 --> 
+ERROR - 2023-05-02 01:30:56 --> 
+ERROR - 2023-05-02 01:30:56 --> 
+ERROR - 2023-05-02 01:30:56 --> 
+ERROR - 2023-05-02 01:30:57 --> 
+ERROR - 2023-05-02 01:30:57 --> 
+ERROR - 2023-05-02 01:30:57 --> 
+ERROR - 2023-05-02 01:30:57 --> 
+ERROR - 2023-05-02 01:30:57 --> 
+CRITICAL - 2023-05-02 06:24:04 --> Undefined variable $original
+in APPPATH/Views/upload.php on line 33.
+ 1 APPPATH/Views/upload.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Upload.php(21): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-02 06:44:44 --> Undefined variable $original
+in APPPATH/Views/upload.php on line 33.
+ 1 APPPATH/Views/upload.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Upload.php(22): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-02 06:44:53 --> Undefined variable $original
+in APPPATH/Views/upload.php on line 33.
+ 1 APPPATH/Views/upload.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Upload.php(22): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-02 06:45:23 --> Undefined variable $original
+in APPPATH/Views/upload.php on line 33.
+ 1 APPPATH/Views/upload.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Upload.php(22): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-02 06:45:25 --> Undefined variable $original
+in APPPATH/Views/upload.php on line 33.
+ 1 APPPATH/Views/upload.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Upload.php(22): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-02 06:45:28 --> Undefined variable $original
+in APPPATH/Views/upload.php on line 33.
+ 1 APPPATH/Views/upload.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Upload.php(22): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-02 06:54:32 --> Class "Imagick" not found
+in APPPATH/Models/Picture_model.php on line 12.
+ 1 APPPATH/Controllers/Upload.php(134): App\Models\Picture_Model->crop()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload_basic_file()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-02 07:17:06 --> Class "App\Controllers\File" not found
+in APPPATH/Controllers/Upload.php on line 140.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload_basic_file()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-02 07:33:42 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-02 10:04:35 --> 
+ERROR - 2023-05-02 10:04:35 --> 
+ERROR - 2023-05-02 10:04:35 --> 
+ERROR - 2023-05-02 10:04:36 --> 
+CRITICAL - 2023-05-02 10:06:24 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-02 10:06:37 --> 
+ERROR - 2023-05-02 10:06:37 --> 
+ERROR - 2023-05-02 10:06:37 --> 
+ERROR - 2023-05-02 10:06:39 --> 
+ERROR - 2023-05-02 10:06:39 --> 
+ERROR - 2023-05-02 10:06:39 --> 
+ERROR - 2023-05-02 10:06:40 --> 
+ERROR - 2023-05-02 10:07:12 --> mysqli_sql_exception: Column 'teacher_name' cannot be null in /var/www/htdocs/LearnLion/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/LearnLion/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/LearnLion/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/LearnLion/app/Models/Upload_model.php(26): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/LearnLion/app/Controllers/Upload.php(129): App\Models\Upload_model->upload()
+#6 /var/www/htdocs/LearnLion/system/CodeIgniter.php(934): App\Controllers\Upload->upload_basic_file()
+#7 /var/www/htdocs/LearnLion/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/LearnLion/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/LearnLion/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-02 10:07:12 --> Column 'teacher_name' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Upload_model.php(26): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Upload.php(129): App\Models\Upload_model->upload()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload_basic_file()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-02 10:10:30 --> The path does not exist: /var/www/htdocs/LearnLion/public/arial.ttf
+in APPPATH/Models/Picture_model.php on line 47.
+ 1 APPPATH/Models/Picture_model.php(47): ImagickDraw->setFont()
+ 2 APPPATH/Controllers/Upload.php(140): App\Models\Picture_Model->addTextWatermark()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload_basic_file()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-02 10:12:52 --> 
+ERROR - 2023-05-02 10:12:52 --> 
+ERROR - 2023-05-02 10:12:52 --> 
+ERROR - 2023-05-02 10:12:52 --> 
+CRITICAL - 2023-05-02 10:13:09 --> Undefined variable $crop
+in APPPATH/Views/upload.php on line 37.
+ 1 APPPATH/Views/upload.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Upload.php(151): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload_basic_file()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-02 10:13:55 --> 
+ERROR - 2023-05-02 10:13:55 --> 
+ERROR - 2023-05-02 10:13:55 --> 
+ERROR - 2023-05-02 10:13:56 --> 
+ERROR - 2023-05-02 10:13:56 --> 
+ERROR - 2023-05-02 10:13:56 --> 
+ERROR - 2023-05-02 10:13:56 --> 
+ERROR - 2023-05-02 10:13:56 --> 
+ERROR - 2023-05-02 10:13:56 --> 
+ERROR - 2023-05-02 10:13:56 --> 
+ERROR - 2023-05-02 10:13:56 --> 
+ERROR - 2023-05-02 10:13:56 --> 
+ERROR - 2023-05-02 10:13:56 --> 
+ERROR - 2023-05-02 10:13:57 --> 
+ERROR - 2023-05-02 10:13:57 --> 
+ERROR - 2023-05-02 10:13:57 --> 
+ERROR - 2023-05-02 10:13:57 --> 
+CRITICAL - 2023-05-02 10:18:26 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-02 10:25:37 --> 
+ERROR - 2023-05-02 10:25:37 --> 
+ERROR - 2023-05-02 10:25:37 --> 
+ERROR - 2023-05-02 10:25:37 --> 
+ERROR - 2023-05-02 10:25:37 --> 

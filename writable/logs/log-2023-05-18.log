@@ -1,0 +1,97 @@
+ERROR - 2023-05-18 21:22:54 --> Error connecting to the database: ErrorException: Packets out of order. Expected 1 received 0. Packet size=145 in /var/www/htdocs/LearnLion/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/LearnLion/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#2 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#3 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/htdocs/LearnLion/system/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/htdocs/LearnLion/system/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+#6 /var/www/htdocs/LearnLion/system/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+#7 /var/www/htdocs/LearnLion/app/Controllers/Home.php(18): CodeIgniter\BaseModel->paginate()
+#8 /var/www/htdocs/LearnLion/system/CodeIgniter.php(934): App\Controllers\Home->index()
+#9 /var/www/htdocs/LearnLion/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/htdocs/LearnLion/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/htdocs/LearnLion/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Packets out of order. Expected 1 received 0. Packet size=145 in /var/www/htdocs/LearnLion/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/htdocs/LearnLion/system/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/htdocs/LearnLion/system/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+#4 /var/www/htdocs/LearnLion/system/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+#5 /var/www/htdocs/LearnLion/app/Controllers/Home.php(18): CodeIgniter\BaseModel->paginate()
+#6 /var/www/htdocs/LearnLion/system/CodeIgniter.php(934): App\Controllers\Home->index()
+#7 /var/www/htdocs/LearnLion/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/LearnLion/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/LearnLion/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-18 21:22:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Packets out of order. Expected 1 received 0. Packet size=145
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 4 SYSTEMPATH/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+ 5 APPPATH/Controllers/Home.php(18): CodeIgniter\BaseModel->paginate()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 21:22:56 --> Error connecting to the database: ErrorException: Packets out of order. Expected 1 received 0. Packet size=145 in /var/www/htdocs/LearnLion/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/LearnLion/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#2 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#3 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/htdocs/LearnLion/system/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/htdocs/LearnLion/system/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+#6 /var/www/htdocs/LearnLion/system/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+#7 /var/www/htdocs/LearnLion/app/Controllers/Home.php(18): CodeIgniter\BaseModel->paginate()
+#8 /var/www/htdocs/LearnLion/system/CodeIgniter.php(934): App\Controllers\Home->index()
+#9 /var/www/htdocs/LearnLion/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/htdocs/LearnLion/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/htdocs/LearnLion/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Packets out of order. Expected 1 received 0. Packet size=145 in /var/www/htdocs/LearnLion/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/htdocs/LearnLion/system/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/htdocs/LearnLion/system/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+#4 /var/www/htdocs/LearnLion/system/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+#5 /var/www/htdocs/LearnLion/app/Controllers/Home.php(18): CodeIgniter\BaseModel->paginate()
+#6 /var/www/htdocs/LearnLion/system/CodeIgniter.php(934): App\Controllers\Home->index()
+#7 /var/www/htdocs/LearnLion/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/LearnLion/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/LearnLion/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-18 21:22:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Packets out of order. Expected 1 received 0. Packet size=145
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 4 SYSTEMPATH/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+ 5 APPPATH/Controllers/Home.php(18): CodeIgniter\BaseModel->paginate()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 21:23:09 --> Undefined array key 0
+in APPPATH/Models/Students_model.php on line 48.
+ 1 APPPATH/Models/Students_model.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Shoppingcart.php(22): App\Models\Students_model->getFavoriteCoursesIDsByName()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Shoppingcart->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 21:29:04 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /var/www/htdocs/LearnLion/app/Controllers/AutocompleteSearch.php on line 17
+in SYSTEMPATH/Database/BaseBuilder.php on line 984.
+ 1 APPPATH/Controllers/AutocompleteSearch.php(17): CodeIgniter\Database\BaseBuilder->like()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\AutocompleteSearch->ajaxSearch()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

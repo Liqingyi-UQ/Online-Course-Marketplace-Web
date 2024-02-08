@@ -1,0 +1,398 @@
+CRITICAL - 2023-04-20 03:55:11 --> Undefined variable $user
+in APPPATH/Views/user_profile.php on line 16.
+ 1 APPPATH/Views/user_profile.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/user_profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(15): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 03:56:15 --> Undefined variable $user
+in APPPATH/Views/user_profile.php on line 16.
+ 1 APPPATH/Views/user_profile.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/user_profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(15): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 03:56:18 --> Undefined variable $user
+in APPPATH/Views/user_profile.php on line 16.
+ 1 APPPATH/Views/user_profile.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/user_profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(15): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 03:56:43 --> Undefined variable $user
+in APPPATH/Views/user_profile.php on line 22.
+ 1 APPPATH/Views/user_profile.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/user_profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(15): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 03:58:40 --> view(): Argument #3 ($options) must be of type array, string given, called in /var/www/htdocs/LearnLion/app/Controllers/User.php on line 27
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/User.php(27): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 03:58:42 --> view(): Argument #3 ($options) must be of type array, string given, called in /var/www/htdocs/LearnLion/app/Controllers/User.php on line 27
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/User.php(27): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 03:58:43 --> view(): Argument #3 ($options) must be of type array, string given, called in /var/www/htdocs/LearnLion/app/Controllers/User.php on line 27
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/User.php(27): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 04:11:22 --> view(): Argument #2 ($data) must be of type array, string given, called in /var/www/htdocs/LearnLion/app/Controllers/User.php on line 81
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/User.php(81): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->update_information()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 04:11:43 --> view(): Argument #2 ($data) must be of type array, string given, called in /var/www/htdocs/LearnLion/app/Controllers/User.php on line 81
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/User.php(81): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->update_information()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 04:13:57 --> view(): Argument #2 ($data) must be of type array, string given, called in /var/www/htdocs/LearnLion/app/Controllers/User.php on line 81
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/User.php(81): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->update_information()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 04:14:03 --> view(): Argument #2 ($data) must be of type array, string given, called in /var/www/htdocs/LearnLion/app/Controllers/User.php on line 81
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/User.php(81): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->update_information()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 04:25:05 --> Undefined variable $data
+in APPPATH/Controllers/User.php on line 81.
+ 1 APPPATH/Controllers/User.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->update_information()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 04:27:58 --> Undefined variable $user
+in APPPATH/Views/user_profile.php on line 16.
+ 1 APPPATH/Views/user_profile.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/user_profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(81): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->update_information()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 04:28:09 --> Undefined variable $user
+in APPPATH/Views/user_profile.php on line 16.
+ 1 APPPATH/Views/user_profile.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/user_profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(81): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->update_information()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 04:28:22 --> Undefined variable $user
+in APPPATH/Views/user_profile.php on line 16.
+ 1 APPPATH/Views/user_profile.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/user_profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(81): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->update_information()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 06:01:28 --> Undefined variable $recaptchaResponse
+in APPPATH/Controllers/Register.php on line 48.
+ 1 APPPATH/Controllers/Register.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 06:31:59 --> Undefined variable $responseData
+in APPPATH/ThirdParty/Recaptcha.php on line 14.
+ 1 APPPATH/ThirdParty/Recaptcha.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Register.php(50): App\ThirdParty\Recaptcha->check_Response()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-20 06:32:50 --> mysqli_sql_exception: Duplicate entry 'lqy2' for key 'students.username' in /var/www/htdocs/LearnLion/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/LearnLion/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/LearnLion/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/LearnLion/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/LearnLion/system/BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 /var/www/htdocs/LearnLion/system/Model.php(730): CodeIgniter\BaseModel->insert()
+#7 /var/www/htdocs/LearnLion/app/Models/Students_model.php(28): CodeIgniter\Model->insert()
+#8 /var/www/htdocs/LearnLion/app/Controllers/Register.php(77): App\Models\Students_model->insertStudent()
+#9 /var/www/htdocs/LearnLion/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#10 /var/www/htdocs/LearnLion/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/htdocs/LearnLion/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/htdocs/LearnLion/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-20 06:32:50 --> Duplicate entry 'lqy2' for key 'students.username'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Models/Students_model.php(28): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/Register.php(77): App\Models\Students_model->insertStudent()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 09:24:47 --> Undefined variable $error
+in APPPATH/Views/upload.php on line 21.
+ 1 APPPATH/Views/upload.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Upload.php(22): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 09:25:32 --> Undefined variable $error
+in APPPATH/Views/upload.php on line 21.
+ 1 APPPATH/Views/upload.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Upload.php(22): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 09:27:34 --> Undefined variable $error
+in APPPATH/Views/upload.php on line 21.
+ 1 APPPATH/Views/upload.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Upload.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 09:27:36 --> Undefined variable $error
+in APPPATH/Views/upload.php on line 21.
+ 1 APPPATH/Views/upload.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Upload.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 09:32:01 --> Undefined variable $error
+in APPPATH/Views/upload.php on line 21.
+ 1 APPPATH/Views/upload.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Upload.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 09:32:04 --> Undefined variable $error
+in APPPATH/Views/upload.php on line 21.
+ 1 APPPATH/Views/upload.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Upload.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 09:33:19 --> Undefined variable $error
+in APPPATH/Views/upload.php on line 21.
+ 1 APPPATH/Views/upload.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Upload.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 09:33:20 --> Undefined variable $error
+in APPPATH/Views/upload.php on line 21.
+ 1 APPPATH/Views/upload.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Upload.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 09:33:22 --> Undefined variable $error
+in APPPATH/Views/upload.php on line 21.
+ 1 APPPATH/Views/upload.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Upload.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-20 09:43:55 --> mysqli_sql_exception: Column 'teacher_name' cannot be null in /var/www/htdocs/LearnLion/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/LearnLion/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/LearnLion/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/LearnLion/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/LearnLion/system/BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 /var/www/htdocs/LearnLion/system/Model.php(730): CodeIgniter\BaseModel->insert()
+#7 /var/www/htdocs/LearnLion/app/Models/Courses_model.php(16): CodeIgniter\Model->insert()
+#8 /var/www/htdocs/LearnLion/app/Controllers/Upload.php(52): App\Models\Courses_model->createCourse()
+#9 /var/www/htdocs/LearnLion/system/CodeIgniter.php(934): App\Controllers\Upload->createCourse()
+#10 /var/www/htdocs/LearnLion/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/htdocs/LearnLion/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/htdocs/LearnLion/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-20 09:43:55 --> Column 'teacher_name' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Models/Courses_model.php(16): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/Upload.php(52): App\Models\Courses_model->createCourse()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->createCourse()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-20 09:46:11 --> mysqli_sql_exception: Column 'teacher_name' cannot be null in /var/www/htdocs/LearnLion/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/LearnLion/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/LearnLion/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/LearnLion/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/LearnLion/system/BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 /var/www/htdocs/LearnLion/system/Model.php(730): CodeIgniter\BaseModel->insert()
+#7 /var/www/htdocs/LearnLion/app/Models/Courses_model.php(16): CodeIgniter\Model->insert()
+#8 /var/www/htdocs/LearnLion/app/Controllers/Upload.php(52): App\Models\Courses_model->createCourse()
+#9 /var/www/htdocs/LearnLion/system/CodeIgniter.php(934): App\Controllers\Upload->createCourse()
+#10 /var/www/htdocs/LearnLion/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/htdocs/LearnLion/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/htdocs/LearnLion/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-20 09:46:11 --> Column 'teacher_name' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Models/Courses_model.php(16): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/Upload.php(52): App\Models\Courses_model->createCourse()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->createCourse()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-20 09:50:28 --> mysqli_sql_exception: Column 'teacher_name' cannot be null in /var/www/htdocs/LearnLion/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/LearnLion/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/LearnLion/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/LearnLion/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/LearnLion/system/BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 /var/www/htdocs/LearnLion/system/Model.php(730): CodeIgniter\BaseModel->insert()
+#7 /var/www/htdocs/LearnLion/app/Models/Courses_model.php(16): CodeIgniter\Model->insert()
+#8 /var/www/htdocs/LearnLion/app/Controllers/Upload.php(52): App\Models\Courses_model->createCourse()
+#9 /var/www/htdocs/LearnLion/system/CodeIgniter.php(934): App\Controllers\Upload->createCourse()
+#10 /var/www/htdocs/LearnLion/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/htdocs/LearnLion/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/htdocs/LearnLion/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-20 09:50:28 --> Column 'teacher_name' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Models/Courses_model.php(16): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/Upload.php(52): App\Models\Courses_model->createCourse()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->createCourse()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-20 09:50:44 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`LearnLion`.`courses`, CONSTRAINT `courses_ibfk_1` FOREIGN KEY (`teacher_name`) REFERENCES `teachers` (`id`) ON DELETE CASCADE) in /var/www/htdocs/LearnLion/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/LearnLion/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/LearnLion/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/LearnLion/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/LearnLion/system/BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 /var/www/htdocs/LearnLion/system/Model.php(730): CodeIgniter\BaseModel->insert()
+#7 /var/www/htdocs/LearnLion/app/Models/Courses_model.php(16): CodeIgniter\Model->insert()
+#8 /var/www/htdocs/LearnLion/app/Controllers/Upload.php(52): App\Models\Courses_model->createCourse()
+#9 /var/www/htdocs/LearnLion/system/CodeIgniter.php(934): App\Controllers\Upload->createCourse()
+#10 /var/www/htdocs/LearnLion/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/htdocs/LearnLion/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/htdocs/LearnLion/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-20 09:50:44 --> Cannot add or update a child row: a foreign key constraint fails (`LearnLion`.`courses`, CONSTRAINT `courses_ibfk_1` FOREIGN KEY (`teacher_name`) REFERENCES `teachers` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Models/Courses_model.php(16): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/Upload.php(52): App\Models\Courses_model->createCourse()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->createCourse()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 10:53:26 --> Undefined variable $success
+in APPPATH/Views/register.php on line 26.
+ 1 APPPATH/Views/register.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(33): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

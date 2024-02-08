@@ -1,0 +1,272 @@
+ERROR - 2023-04-27 03:39:29 --> 
+CRITICAL - 2023-04-27 03:40:55 --> Attempt to read property "id" on array
+in APPPATH/Views/home.php on line 41.
+ 1 APPPATH/Views/home.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(19): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-27 03:41:24 --> 
+ERROR - 2023-04-27 05:56:05 --> 
+ERROR - 2023-04-27 06:44:26 --> 
+CRITICAL - 2023-04-27 07:45:25 --> Division by zero
+in APPPATH/Models/Rating_model.php on line 28.
+ 1 APPPATH/Controllers/CourseShow.php(35): App\Models\Rating_model->getAverageScoreByCourse()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseShow->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 07:46:43 --> Undefined variable $error
+in APPPATH/Views/course_profile.php on line 99.
+ 1 APPPATH/Views/course_profile.php(99): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/course_profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CourseShow.php(76): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseShow->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 08:08:59 --> Undefined variable $ratingToAdd
+in APPPATH/Controllers/CourseShow.php on line 163.
+ 1 APPPATH/Controllers/CourseShow.php(163): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseShow->add_rating()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 08:15:09 --> Undefined variable $ratingToAdd
+in APPPATH/Controllers/CourseShow.php on line 163.
+ 1 APPPATH/Controllers/CourseShow.php(163): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CourseShow->add_rating()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-27 08:35:05 --> 
+ERROR - 2023-04-27 08:35:43 --> 
+ERROR - 2023-04-27 08:37:16 --> 
+ERROR - 2023-04-27 08:38:12 --> 
+ERROR - 2023-04-27 08:38:33 --> 
+ERROR - 2023-04-27 08:38:48 --> 
+ERROR - 2023-04-27 08:39:22 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:29 --> 
+ERROR - 2023-04-27 10:53:30 --> 
+ERROR - 2023-04-27 10:53:30 --> 
+ERROR - 2023-04-27 10:53:30 --> 
+ERROR - 2023-04-27 10:53:30 --> 
+ERROR - 2023-04-27 10:53:30 --> 
+ERROR - 2023-04-27 10:53:30 --> 
+ERROR - 2023-04-27 10:55:25 --> 
+ERROR - 2023-04-27 10:55:25 --> 
+ERROR - 2023-04-27 10:55:25 --> 
+ERROR - 2023-04-27 10:55:25 --> 
+ERROR - 2023-04-27 10:55:25 --> 
+ERROR - 2023-04-27 10:55:25 --> 
+ERROR - 2023-04-27 10:55:25 --> 
+ERROR - 2023-04-27 10:55:26 --> 
+ERROR - 2023-04-27 10:55:26 --> 
+ERROR - 2023-04-27 10:55:26 --> 
+ERROR - 2023-04-27 10:55:26 --> 
+ERROR - 2023-04-27 10:55:26 --> 
+ERROR - 2023-04-27 10:55:26 --> 
+ERROR - 2023-04-27 10:55:26 --> 
+ERROR - 2023-04-27 10:55:26 --> 
+ERROR - 2023-04-27 10:55:26 --> 
+ERROR - 2023-04-27 10:55:26 --> 
+CRITICAL - 2023-04-27 10:56:13 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH/BaseModel.php on line 1706.
+ 1 SYSTEMPATH/BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray()
+ 2 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 3 APPPATH/Models/Teachers_model.php(31): CodeIgniter\Model->insert()
+ 4 APPPATH/Controllers/User.php(90): App\Models\Teachers_model->insertTeacher()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->update_information()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 10:57:00 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH/BaseModel.php on line 1706.
+ 1 SYSTEMPATH/BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray()
+ 2 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 3 APPPATH/Models/Teachers_model.php(31): CodeIgniter\Model->insert()
+ 4 APPPATH/Controllers/User.php(90): App\Models\Teachers_model->insertTeacher()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->update_information()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 10:57:32 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH/BaseModel.php on line 1706.
+ 1 SYSTEMPATH/BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray()
+ 2 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 3 APPPATH/Models/Teachers_model.php(31): CodeIgniter\Model->insert()
+ 4 APPPATH/Controllers/User.php(90): App\Models\Teachers_model->insertTeacher()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->update_information()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 11:01:20 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH/BaseModel.php on line 1706.
+ 1 SYSTEMPATH/BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray()
+ 2 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 3 APPPATH/Models/Teachers_model.php(31): CodeIgniter\Model->insert()
+ 4 APPPATH/Controllers/User.php(90): App\Models\Teachers_model->insertTeacher()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->update_information()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 11:08:57 --> Undefined variable $course_names
+in APPPATH/Views/user_profile.php on line 44.
+ 1 APPPATH/Views/user_profile.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/user_profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(94): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->update_information()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 11:13:25 --> Undefined variable $courseModel
+in APPPATH/Controllers/User.php on line 93.
+ 1 APPPATH/Controllers/User.php(93): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->update_information()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-27 11:18:07 --> 
+ERROR - 2023-04-27 11:18:07 --> 
+ERROR - 2023-04-27 11:18:07 --> 
+ERROR - 2023-04-27 11:18:07 --> 
+ERROR - 2023-04-27 11:18:07 --> 
+ERROR - 2023-04-27 11:18:07 --> 
+ERROR - 2023-04-27 11:18:07 --> 
+ERROR - 2023-04-27 11:18:07 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:08 --> 
+ERROR - 2023-04-27 11:18:32 --> 
+ERROR - 2023-04-27 11:18:32 --> 
+ERROR - 2023-04-27 11:18:32 --> 
+ERROR - 2023-04-27 11:18:32 --> 
+ERROR - 2023-04-27 11:18:32 --> 
+ERROR - 2023-04-27 11:18:32 --> 
+ERROR - 2023-04-27 11:18:32 --> 
+ERROR - 2023-04-27 11:18:32 --> 
+ERROR - 2023-04-27 11:18:32 --> 
+ERROR - 2023-04-27 11:18:32 --> 
+ERROR - 2023-04-27 11:18:32 --> 
+ERROR - 2023-04-27 11:18:32 --> 
+ERROR - 2023-04-27 11:18:32 --> 
+ERROR - 2023-04-27 11:18:32 --> 
+ERROR - 2023-04-27 11:18:33 --> 
+ERROR - 2023-04-27 11:18:33 --> 
+ERROR - 2023-04-27 11:18:33 --> 
+ERROR - 2023-04-27 11:18:33 --> 
+ERROR - 2023-04-27 11:18:33 --> 
+ERROR - 2023-04-27 11:19:24 --> 
+ERROR - 2023-04-27 11:19:24 --> 
+ERROR - 2023-04-27 11:19:24 --> 
+ERROR - 2023-04-27 11:19:24 --> 
+ERROR - 2023-04-27 11:19:24 --> 
+ERROR - 2023-04-27 11:19:24 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 
+ERROR - 2023-04-27 11:19:25 --> 

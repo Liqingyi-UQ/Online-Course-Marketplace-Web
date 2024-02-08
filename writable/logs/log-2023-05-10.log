@@ -1,0 +1,227 @@
+ERROR - 2023-05-10 05:55:35 --> Error connecting to the database: ErrorException: Packets out of order. Expected 1 received 0. Packet size=145 in /var/www/htdocs/LearnLion/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/LearnLion/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#2 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#3 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/htdocs/LearnLion/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/htdocs/LearnLion/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/htdocs/LearnLion/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#7 /var/www/htdocs/LearnLion/app/Controllers/Shoppingcart.php(19): CodeIgniter\BaseModel->first()
+#8 /var/www/htdocs/LearnLion/system/CodeIgniter.php(934): App\Controllers\Shoppingcart->index()
+#9 /var/www/htdocs/LearnLion/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/htdocs/LearnLion/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/htdocs/LearnLion/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Packets out of order. Expected 1 received 0. Packet size=145 in /var/www/htdocs/LearnLion/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/htdocs/LearnLion/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/htdocs/LearnLion/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/htdocs/LearnLion/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 /var/www/htdocs/LearnLion/app/Controllers/Shoppingcart.php(19): CodeIgniter\BaseModel->first()
+#6 /var/www/htdocs/LearnLion/system/CodeIgniter.php(934): App\Controllers\Shoppingcart->index()
+#7 /var/www/htdocs/LearnLion/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/LearnLion/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/LearnLion/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-10 05:55:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Packets out of order. Expected 1 received 0. Packet size=145
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Shoppingcart.php(19): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Shoppingcart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:04:56 --> Undefined array key 0
+in APPPATH/Models/Courses_model.php on line 22.
+ 1 APPPATH/Models/Courses_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Shoppingcart.php(30): App\Models\Courses_model->getCourseInfoByID()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Shoppingcart->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:07:50 --> Undefined array key 0
+in APPPATH/Models/Courses_model.php on line 22.
+ 1 APPPATH/Models/Courses_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Shoppingcart.php(30): App\Models\Courses_model->getCourseInfoByID()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Shoppingcart->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:07:51 --> Undefined array key 0
+in APPPATH/Models/Courses_model.php on line 22.
+ 1 APPPATH/Models/Courses_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Shoppingcart.php(30): App\Models\Courses_model->getCourseInfoByID()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Shoppingcart->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:07:52 --> Undefined array key 0
+in APPPATH/Models/Courses_model.php on line 22.
+ 1 APPPATH/Models/Courses_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Shoppingcart.php(30): App\Models\Courses_model->getCourseInfoByID()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Shoppingcart->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:07:52 --> Undefined array key 0
+in APPPATH/Models/Courses_model.php on line 22.
+ 1 APPPATH/Models/Courses_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Shoppingcart.php(30): App\Models\Courses_model->getCourseInfoByID()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Shoppingcart->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:07:59 --> Undefined array key 0
+in APPPATH/Models/Courses_model.php on line 22.
+ 1 APPPATH/Models/Courses_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Shoppingcart.php(30): App\Models\Courses_model->getCourseInfoByID()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Shoppingcart->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:09:23 --> Undefined array key 0
+in APPPATH/Models/Courses_model.php on line 22.
+ 1 APPPATH/Models/Courses_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Shoppingcart.php(30): App\Models\Courses_model->getCourseInfoByID()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Shoppingcart->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:12:35 --> Undefined array key 0
+in APPPATH/Models/Courses_model.php on line 22.
+ 1 APPPATH/Models/Courses_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Shoppingcart.php(31): App\Models\Courses_model->getCourseInfoByID()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Shoppingcart->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:12:39 --> Undefined array key 0
+in APPPATH/Models/Courses_model.php on line 22.
+ 1 APPPATH/Models/Courses_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Shoppingcart.php(31): App\Models\Courses_model->getCourseInfoByID()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Shoppingcart->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:14:15 --> Undefined variable $data
+in APPPATH/Controllers/Shoppingcart.php on line 41.
+ 1 APPPATH/Controllers/Shoppingcart.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Shoppingcart->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:14:43 --> Undefined variable $data
+in APPPATH/Controllers/Shoppingcart.php on line 41.
+ 1 APPPATH/Controllers/Shoppingcart.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Shoppingcart->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:14:44 --> Undefined variable $data
+in APPPATH/Controllers/Shoppingcart.php on line 41.
+ 1 APPPATH/Controllers/Shoppingcart.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Shoppingcart->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:15:01 --> Undefined variable $data
+in APPPATH/Controllers/Shoppingcart.php on line 41.
+ 1 APPPATH/Controllers/Shoppingcart.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Shoppingcart->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:15:02 --> Undefined variable $data
+in APPPATH/Controllers/Shoppingcart.php on line 41.
+ 1 APPPATH/Controllers/Shoppingcart.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Shoppingcart->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:15:50 --> Undefined variable $data
+in APPPATH/Controllers/Shoppingcart.php on line 41.
+ 1 APPPATH/Controllers/Shoppingcart.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Shoppingcart->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:15:51 --> Undefined variable $data
+in APPPATH/Controllers/Shoppingcart.php on line 41.
+ 1 APPPATH/Controllers/Shoppingcart.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Shoppingcart->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:15:53 --> Undefined variable $data
+in APPPATH/Controllers/Shoppingcart.php on line 41.
+ 1 APPPATH/Controllers/Shoppingcart.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Shoppingcart->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:16:01 --> Undefined variable $data
+in APPPATH/Controllers/Shoppingcart.php on line 41.
+ 1 APPPATH/Controllers/Shoppingcart.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Shoppingcart->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:17:00 --> Undefined array key 0
+in APPPATH/Models/Courses_model.php on line 22.
+ 1 APPPATH/Models/Courses_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Shoppingcart.php(32): App\Models\Courses_model->getCourseInfoByID()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Shoppingcart->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:22:58 --> foreach() argument must be of type array|object, string given
+in APPPATH/Views/shopping_cart.php on line 16.
+ 1 APPPATH/Views/shopping_cart.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/shopping_cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Shoppingcart.php(40): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Shoppingcart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:28:13 --> Undefined array key 0
+in APPPATH/Models/Courses_model.php on line 30.
+ 1 APPPATH/Models/Courses_model.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Models/Students_model.php(75): App\Models\Courses_model->getCourseNameByID()
+ 3 APPPATH/Controllers/User.php(25): App\Models\Students_model->getFavoriteCoursesByName()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 06:35:53 --> Undefined array key 0
+in APPPATH/Models/Courses_model.php on line 30.
+ 1 APPPATH/Models/Courses_model.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Models/Students_model.php(94): App\Models\Courses_model->getCourseNameByID()
+ 3 APPPATH/Controllers/User.php(25): App\Models\Students_model->getFavoriteCoursesByName()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 08:51:02 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /var/www/htdocs/LearnLion/app/Controllers/AutocompleteSearch.php on line 17
+in SYSTEMPATH/Database/BaseBuilder.php on line 984.
+ 1 APPPATH/Controllers/AutocompleteSearch.php(17): CodeIgniter\Database\BaseBuilder->like()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\AutocompleteSearch->ajaxSearch()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 08:51:49 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /var/www/htdocs/LearnLion/app/Controllers/AutocompleteSearch.php on line 17
+in SYSTEMPATH/Database/BaseBuilder.php on line 984.
+ 1 APPPATH/Controllers/AutocompleteSearch.php(17): CodeIgniter\Database\BaseBuilder->like()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\AutocompleteSearch->ajaxSearch()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,96 @@
+ERROR - 2023-05-03 04:06:09 --> Error connecting to the database: ErrorException: Packets out of order. Expected 1 received 0. Packet size=145 in /var/www/htdocs/LearnLion/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/LearnLion/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#2 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#3 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/htdocs/LearnLion/system/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/htdocs/LearnLion/system/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+#6 /var/www/htdocs/LearnLion/system/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+#7 /var/www/htdocs/LearnLion/app/Controllers/Home.php(18): CodeIgniter\BaseModel->paginate()
+#8 /var/www/htdocs/LearnLion/system/CodeIgniter.php(934): App\Controllers\Home->index()
+#9 /var/www/htdocs/LearnLion/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/htdocs/LearnLion/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/htdocs/LearnLion/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Packets out of order. Expected 1 received 0. Packet size=145 in /var/www/htdocs/LearnLion/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/htdocs/LearnLion/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/htdocs/LearnLion/system/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/htdocs/LearnLion/system/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+#4 /var/www/htdocs/LearnLion/system/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+#5 /var/www/htdocs/LearnLion/app/Controllers/Home.php(18): CodeIgniter\BaseModel->paginate()
+#6 /var/www/htdocs/LearnLion/system/CodeIgniter.php(934): App\Controllers\Home->index()
+#7 /var/www/htdocs/LearnLion/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/LearnLion/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/LearnLion/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-03 04:06:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Packets out of order. Expected 1 received 0. Packet size=145
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 4 SYSTEMPATH/BaseModel.php(1188): CodeIgniter\Model->countAllResults()
+ 5 APPPATH/Controllers/Home.php(18): CodeIgniter\BaseModel->paginate()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 05:13:55 --> Undefined variable $error
+in APPPATH/Views/email_verification.php on line 26.
+ 1 APPPATH/Views/email_verification.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/email_verification.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(100): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-03 05:16:33 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-05-03 05:16:33 --> 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Wed, 3 May 2023 15:16:28 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-a6ad0cb3.zones.eait.uq.edu.au [172.23.81.248], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+from: 250 2.1.0 <qingyi.li1@uq.edu.au>... Sender ok
+
+to: 
+The following SMTP error was encountered: 
+quit: 250 2.1.5 <liqy19981005@gmail.com>... Recipient ok
+
+The following SMTP error was encountered: 250 2.1.5 <liqy19981005@gmail.com>... Recipient ok
+
+CRITICAL - 2023-05-03 05:16:33 --> Undefined variable $success
+in APPPATH/Views/email_verification.php on line 27.
+ 1 APPPATH/Views/email_verification.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/email_verification.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/EmailController.php(58): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\EmailController->send()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 08:31:01 --> Trying to access array offset on value of type null
+in APPPATH/Views/user_profile.php on line 16.
+ 1 APPPATH/Views/user_profile.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/user_profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(44): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
